@@ -326,7 +326,6 @@
 
     ]]>
 		</script>
-
 <!-- Yandex.Metrika counter -->
 <script>
 <![CDATA[
