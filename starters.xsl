@@ -64,8 +64,8 @@
        <div class="menubm" onclick="popupMenu1()" style="cursor:pointer;">Recipes</div>
        <div class="menubm" onclick="popupMenu2()" style="cursor:pointer;width:100px;">by Material</div>
        <div class="menubm" onclick="popupMenu3()" style="cursor:pointer;width:80px;">by Place</div>
-       <div class="menubm" style="cursor:pointer;width:70px;"><a href="etc.xml" class="muaa">Videos</a></div>
-       <div class="menubm" style="cursor:pointer;width:50px;"><a href="etc.xml" class="muaa">Fun</a></div>
+       <div class="menubm" style="cursor:pointer;width:70px;"><a href="videos.xml" class="muaa">Videos</a></div>s
+       <div class="menubm" style="cursor:pointer;width:50px;"><a href="fun.xml" class="muaa">Fun</a></div>
        <div class="menubm" style="cursor:pointer;width:120px;"><a href="etc.xml" class="muaa">What is this?</a></div>
        <div class="menubm" style="cursor:pointer;width:80px;"><a href="about.xml" class="muaa">Who we are</a></div>
     </div>
@@ -79,13 +79,18 @@
       <div>&#8201;</div>
     </div> 
 
-     <div id="burgerMenu2" class="burgermenu" style="display: none; z-index:99997; border: 0px solid yellow;">
+    <div id="burgerMenu2" class="burgermenu" style="display: none; z-index:99997; border: 0px solid yellow;">
       <div id="muAlmond" class="vmuBurgerMenu"><a href="/almond.xml" style="color:#FFFFFF;">Almond</a>&#8201;</div>
+      <div id="muBacon" class="vmuBurgerMenu"><a href="/bacon.xml" style="color:#FFFFFF;">Bacon</a>&#8201;</div>
       <div id="muBechamel" class="vmuBurgerMenu"><a href="/bechamel.xml" style="color:#FFFFFF;">Bechamel</a>&#8201;</div>
       <div id="muCheese" class="vmuBurgerMenu"><a href="/cheese.xml" style="color:#FFFFFF;">Cheese</a>&#8201;</div>
+      <div id="muChocolate" class="vmuBurgerMenu"><a href="/chocolate.xml" style="color:#FFFFFF;">Chocolate</a>&#8201;</div>
       <div id="muOnion" class="vmuBurgerMenu"><a href="/onion.xml" style="color:#FFFFFF;">Onion</a>&#8201;</div>
       <div id="muRise" class="vmuBurgerMenu"><a href="/rise.xml" style="color:#FFFFFF;">Rise</a>&#8201;</div>
       <div id="muRagu" class="vmuBurgerMenu"><a href="/ragu.xml" style="color:#FFFFFF;">Ragù</a>&#8201;</div>
+      <div id="muRavioli" class="vmuBurgerMenu"><a href="/ravioli.xml" style="color:#FFFFFF;">Ravioli</a>&#8201;</div>
+      <div id="muSpaghetti" class="vmuBurgerMenu"><a href="/spaghetti.xml" style="color:#FFFFFF;">Spaghetti</a>&#8201;</div>
+      <div id="muSpinach" class="vmuBurgerMenu"><a href="/spinach.xml" style="color:#FFFFFF;">Spinach</a>&#8201;</div>
       <div id="muSalumi" class="vmuBurgerMenu"><a href="/salumi.xml" style="color:#FFFFFF;">Salumi</a>&#8201;</div>
       <div>&#8201;</div>
     </div>     
@@ -94,8 +99,10 @@
       <div id="muBologna" class="vmuBurgerMenu"><a href="/bologna.xml" style="color:#FFFFFF;">Bologna</a>&#8201;</div>
       <div id="muModena" class="vmuBurgerMenu"><a href="/modena.xml" style="color:#FFFFFF;">Modena</a>&#8201;</div>
       <div id="muFerrara" class="vmuBurgerMenu"><a href="/ferrara.xml" style="color:#FFFFFF;">Ferrara</a>&#8201;</div>
+      <div id="muReggioEmilia" class="vmuBurgerMenu"><a href="/reggio-emilia.xml" style="color:#FFFFFF;">Reggio Emilia</a>&#8201;</div>
+      <div id="muRome" class="vmuBurgerMenu"><a href="/rome.xml" style="color:#FFFFFF;">Rome</a>&#8201;</div>
       <div>&#8201;</div>
-    </div>     
+    </div>      
     
 		<br/><br/><br/><br/><br/>
 
@@ -323,29 +330,30 @@
         }
       }, true);      
                   
-
     ]]>
 		</script>
 
 <!-- Yandex.Metrika counter -->
 <script>
-<![CDATA[
-(function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
-   m[i].l=1*new Date();
-   for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
-   k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
-   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+<![CDATA[  
+  
+   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+   m[i].l=1*new Date();
+   for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+   k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
 
-   ym(94522487, "init", {
-        clickmap:true,
-        trackLinks:true,
-        accurateTrackBounce:true
-   });
-]]>
+   ym(94522487, "init", {
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true
+   });
+
+  ]]>
 </script>
 <noscript><div><img src="https://mc.yandex.ru/watch/94522487" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
 <!-- /Yandex.Metrika counter -->
-		  
+
 	  </BODY>
 	  </HTML>     	
 	

@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+
+<!-- File name: index.xml 
+
+ Copyright 2021, 2024 5 Mode. All right reserved.
+ 
+ This file is part of PiattiSquisiti.
+
+ starters.xml
+  
+ PiattiSquisiti starters file.
+ 
+ @author Daniele Bonini <my25mb@aol.com>
+ @copyrights (c) 2021, 2024 5 Mode     
+
+-->
+
+<?xml-stylesheet type="text/xsl" href="fun.xsl"?>
+
+
+<CONTENT>
+	<ITEM>
+    <ID>01</ID>
+		<NAME>Tortellini</NAME>
+    <DESC_MATERIAL>pork, mortadella, ham, eggs, parmisan, flor 00</DESC_MATERIAL>
+    <DESC_PREPARATION>Mix pork, ham, mortadella, parmisan and eggs; rest for 20 hours. Shape 4x4xcm squares with filling; fold them.</DESC_PREPARATION>
+    <DESC_COOKING>Boil them briefly, not too long time.</DESC_COOKING>
+    <DESC_SERVING>Also in brodo a few of parmisan leaves a great tast.</DESC_SERVING>
+    <TYPE>IMAGE</TYPE>
+    <RECIPE_TYPE1>MAIN_FIRSTS</RECIPE_TYPE1>
+    <RECIPE_TYPE2/>
+    <MATERIAL1>pork</MATERIAL1>
+    <MATERIAL2>salumi</MATERIAL2>
+    <PLACE>bologna</PLACE>
+    <MORE_INFO>Last seen on https://5md.io/l/rictortellini</MORE_INFO>
+		<REF>https://5md.io/l/rictortellini</REF>
+		<SRC>https://piattisquisiti.com/img/tutu.jpg</SRC>
+		<DATE>2023-08-02 0911</DATE>
+		<INDEX>1</INDEX> 
+	</ITEM>
+</CONTENT>

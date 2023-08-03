@@ -4,15 +4,15 @@
 
 <xsl:output method="html" version="4"/>
 
-<!-- File name: firsts.xml 
+<!-- File name: index.xml 
 
  Copyright 2021, 2024 5 Mode. All right reserved.
  
  This file is part of PiattiSquisiti.
 
- firsts.xsl
+ starters.xsl
   
- PiattiSquisiti firsts stylesheet.
+ PiattiSquisiti starters stylesheet.
  
  @author Daniele Bonini <my25mb@aol.com>
  @copyrights (c) 2021, 2024 5 Mode     
@@ -108,7 +108,7 @@
 
 		<table border="0" style="width:80%; max-width:550px;">
       
-		<xsl:for-each select="ITEM[TYPE='TEXT']">
+		<xsl:for-each select="ITEM[TYPE='IMAGE']">
 		
 			<xsl:sort select="INDEX" data-type="number" order="descending"/>
             
@@ -154,6 +154,15 @@
             <span class="preparation"><span class="preparation-title">Preparation</span>: <span class="preparation-text"><xsl:value-of select="DESC_PREPARATION"/></span></span><br/>
             <span class="cooking"><span class="cooking-title">Cooking</span>: <span class="cooking-text"><xsl:value-of select="DESC_COOKING"/></span></span><br/>
             <span class="serving"><span class="serving-title">Serving</span>: <span class="serving-text"><xsl:value-of select="DESC_SERVING"/></span></span><br/>
+            
+            <br/>
+            
+            <img>
+              <xsl:attribute name="class">image</xsl:attribute> 
+              <xsl:attribute name="src"><xsl:value-of select="SRC"/></xsl:attribute>
+              <xsl:attribute name="style">width: 0px; height: 0px; min-width: 400px; min-height: 225px; vertical-align: middle;</xsl:attribute>
+            </img>                            
+            
           </div>
           
           <br/><br/><br/>
@@ -166,8 +175,8 @@
     <tr>
     <td halign="center" style="text-align:center;">      
 
-    <br/><br/>
-
+    <br/><br/><br/>
+    
 		<br/><br/>
 		
 		<SPAN STYLE="color: #000000; font-size: 14px;">
@@ -289,7 +298,6 @@
         burgerMenuVisible=!burgerMenuVisible;
       } 
 
-
       function hideMenu() {
         $("#burgerMenu").hide();
         burgerMenuVisible=false;
@@ -331,6 +339,7 @@
         }
       }, true);      
                   
+
     ]]>
 		</script>
 
@@ -354,7 +363,6 @@
 </script>
 <noscript><div><img src="https://mc.yandex.ru/watch/94522487" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
 <!-- /Yandex.Metrika counter -->
-
 
 	  </BODY>
 	  </HTML>     	

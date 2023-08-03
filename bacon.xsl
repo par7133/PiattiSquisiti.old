@@ -4,15 +4,15 @@
 
 <xsl:output method="html" version="4"/>
 
-<!-- File name: firsts.xml 
+<!-- File name: index.xml 
 
  Copyright 2021, 2024 5 Mode. All right reserved.
  
  This file is part of PiattiSquisiti.
 
- firsts.xsl
+ starters.xsl
   
- PiattiSquisiti firsts stylesheet.
+ PiattiSquisiti starters stylesheet.
  
  @author Daniele Bonini <my25mb@aol.com>
  @copyrights (c) 2021, 2024 5 Mode     
@@ -102,7 +102,7 @@
       <div id="muReggioEmilia" class="vmuBurgerMenu"><a href="/reggio-emilia.xml" style="color:#FFFFFF;">Reggio Emilia</a>&#8201;</div>
       <div id="muRome" class="vmuBurgerMenu"><a href="/rome.xml" style="color:#FFFFFF;">Rome</a>&#8201;</div>
       <div>&#8201;</div>
-    </div>     
+    </div>      
     
 		<br/><br/><br/><br/><br/>
 
@@ -128,7 +128,9 @@
             </a>
 
             </span>
+            
             <br/>
+            
             <span class="material"><span class="material-title">Material</span>: <span class="material-text"><xsl:value-of select="DESC_MATERIAL"/></span>&#8201;(<span class="material-hints">
               
             <a>
@@ -148,7 +150,6 @@
             </a>                            
                                                             
             </span>)</span>
-            
             <br/>
             
             <span class="preparation"><span class="preparation-title">Preparation</span>: <span class="preparation-text"><xsl:value-of select="DESC_PREPARATION"/></span></span><br/>
@@ -289,7 +290,6 @@
         burgerMenuVisible=!burgerMenuVisible;
       } 
 
-
       function hideMenu() {
         $("#burgerMenu").hide();
         burgerMenuVisible=false;
@@ -331,6 +331,7 @@
         }
       }, true);      
                   
+
     ]]>
 		</script>
 
