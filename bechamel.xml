@@ -22,7 +22,7 @@
 	<ITEM>
     <ID>02</ID>
 		<NAME>Lasagna</NAME>
-    <DESC_MATERIAL>bolognese ragù, bechamel, eggs, flor 00</DESC_MATERIAL>
+    <DESC_MATERIAL>bolognese ragù, bechamel, eggs, flour 00</DESC_MATERIAL>
     <DESC_PREPARATION>Flatten the roll of pasta. Cut the roll in 10x15cm strips.</DESC_PREPARATION>
     <DESC_COOKING>Boil the strips of pasta till they pop up on the top; wash and dry. Put them on backing tin covering with ragù and bechamel sause; cover with the next strip, etc.</DESC_COOKING>
     <DESC_SERVING>Serve with a few of parmisan that leaves a great tast.</DESC_SERVING>

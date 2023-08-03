@@ -22,7 +22,7 @@
   <ITEM>
     <ID>10</ID>
 		<NAME>Ravioli ricotta and spinach</NAME>
-    <DESC_MATERIAL>spinach, ricotta, eggs, nutmeg, flor 00</DESC_MATERIAL>
+    <DESC_MATERIAL>spinach, ricotta, eggs, nutmeg, flour 00</DESC_MATERIAL>
     <DESC_PREPARATION>Mix ricotta spinach, eggs, parmisan, pepper and nutmeg. Shape 5x5cm squares with filling; fold them joying two layers.</DESC_PREPARATION>
     <DESC_COOKING>Boil them briefly, not too long time.</DESC_COOKING>
     <DESC_SERVING>Parmisan or tomato sauce to leave a great taste.</DESC_SERVING>
@@ -38,4 +38,23 @@
 		<DATE>2023-08-02 0911</DATE>
 		<INDEX>10</INDEX> 
 	</ITEM>
+ <ITEM>
+    <ID>13</ID>
+		<NAME>Tortelli di zucca</NAME>
+    <DESC_MATERIAL>pumpkin, amaretto bisquits, cheese, nutmeg</DESC_MATERIAL>
+    <DESC_PREPARATION>Mix pumpkin, amaretto bisquits, cheese and nutmeg. Shape 5x5cm squares with filling; fold them joying two layers.</DESC_PREPARATION>
+    <DESC_COOKING>Boil them briefly, not too long time.</DESC_COOKING>
+    <DESC_SERVING>Parmisan or tomato sauce to leave a great taste.</DESC_SERVING>
+    <TYPE>TEXT</TYPE>
+    <RECIPE_TYPE1>MAIN_FIRSTS</RECIPE_TYPE1>
+    <RECIPE_TYPE2/>
+    <MATERIAL1>ravioli</MATERIAL1>
+    <MATERIAL2>pumpkin</MATERIAL2>
+    <PLACE>reggio-emilia</PLACE>
+    <MORE_INFO>Last seen on https://5md.io/l/ricravioli2</MORE_INFO>
+		<REF>https://5md.io/l/ricravioli2</REF>
+		<SRC/>
+		<DATE>2023-08-02 0911</DATE>
+		<INDEX>13</INDEX> 
+	</ITEM>    
 </CONTENT>

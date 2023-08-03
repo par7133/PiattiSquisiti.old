@@ -57,4 +57,23 @@
 		<DATE>2023-08-02 0911</DATE>
 		<INDEX>11</INDEX> 
 	</ITEM>      
+  <ITEM>
+    <ID>12</ID>
+		<NAME>Castagnacci</NAME>
+    <DESC_MATERIAL>chestnuts flour, raisins, vinsanto, nuts</DESC_MATERIAL>
+    <DESC_PREPARATION>Heat the raisins in the water in spoon of vinsanto. Mix flour, salt, water adding the raisins and nuts.</DESC_PREPARATION>
+    <DESC_COOKING>Make 6x6cm cakes in the baking tin over and drizzled with oil. Cook for 25-30 min</DESC_COOKING>
+    <DESC_SERVING>Serve topping with the remaining nuts.</DESC_SERVING>
+    <TYPE>TEXT</TYPE>
+    <RECIPE_TYPE1>DESSERTS</RECIPE_TYPE1>
+    <RECIPE_TYPE2/>
+    <MATERIAL1>chestnuts</MATERIAL1>
+    <MATERIAL2>etc</MATERIAL2>
+    <PLACE>florence</PLACE>
+    <MORE_INFO>Last seen on https://5md.io/l/riccastagnacci</MORE_INFO>
+		<REF>https://5md.io/l/riccastagnacci</REF>
+		<SRC/>
+		<DATE>2023-08-02 0911</DATE>
+		<INDEX>12</INDEX> 
+	</ITEM>    
 </CONTENT>
