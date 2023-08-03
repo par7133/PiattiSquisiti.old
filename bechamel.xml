@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+
+<!-- File name: index.xml 
+
+ Copyright 2021, 2024 5 Mode. All right reserved.
+ 
+ This file is part of PiattiSquisiti.
+
+ starters.xml
+  
+ PiattiSquisiti starters file.
+ 
+ @author Daniele Bonini <my25mb@aol.com>
+ @copyrights (c) 2021, 2024 5 Mode     
+
+-->
+
+<?xml-stylesheet type="text/xsl" href="bechamel.xsl"?>
+
+
+<CONTENT>
+	<ITEM>
+    <ID>02</ID>
+		<NAME>Lasagna</NAME>
+    <DESC_MATERIAL>bolognese ragù, bechamel, eggs, flor 00</DESC_MATERIAL>
+    <DESC_PREPARATION>Flatten the roll of pasta. Cut the roll in 10x15cm strips.</DESC_PREPARATION>
+    <DESC_COOKING>Boil the strips of pasta till they pop up on the top; wash and dry. Put them on backing tin covering with ragù and bechamel sause; cover with the next strip, etc.</DESC_COOKING>
+    <DESC_SERVING>Serve with a few of parmisan that leaves a great tast.</DESC_SERVING>
+    <TYPE>TEXT</TYPE>
+    <RECIPE_TYPE1>MAIN_FIRSTS</RECIPE_TYPE1>
+    <RECIPE_TYPE2/>
+    <MATERIAL1>ragu</MATERIAL1>
+    <MATERIAL2>bechamel</MATERIAL2>
+    <PLACE>bologna</PLACE>
+    <MORE_INFO>Last seen on https://5md.io/l/riclasagna</MORE_INFO>
+		<REF>https://5md.io/l/riclasagna</REF>
+		<SRC/>
+		<DATE>2023-08-02 0915</DATE>
+		<INDEX>2</INDEX> 
+	</ITEM>  
+</CONTENT>

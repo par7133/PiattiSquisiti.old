@@ -1,0 +1,155 @@
+<?xml version="1.0"?>
+
+<!-- File name: index.xml 
+
+ Copyright 2021, 2024 5 Mode. All right reserved.
+ 
+ This file is part of PiattiSquisiti.
+
+ starters.xml
+  
+ PiattiSquisiti starters file.
+ 
+ @author Daniele Bonini <my25mb@aol.com>
+ @copyrights (c) 2021, 2024 5 Mode     
+
+-->
+
+<?xml-stylesheet type="text/xsl" href="bologna.xsl"?>
+
+
+<CONTENT>
+	<ITEM>
+    <ID>01</ID>
+		<NAME>Tortellini</NAME>
+    <DESC_MATERIAL>pork, mortadella, ham, eggs, parmisan, flor 00</DESC_MATERIAL>
+    <DESC_PREPARATION>Mix pork, ham, mortadella, parmisan and eggs; rest for 20 hours. Shape 4x4xcm squares with filling; fold them.</DESC_PREPARATION>
+    <DESC_COOKING>Boil them briefly, not too long time.</DESC_COOKING>
+    <DESC_SERVING>Also in brodo a few of parmisan leaves a great tast.</DESC_SERVING>
+    <TYPE>TEXT</TYPE>
+    <RECIPE_TYPE1>MAIN_FIRSTS</RECIPE_TYPE1>
+    <RECIPE_TYPE2/>
+    <MATERIAL1>pork</MATERIAL1>
+    <MATERIAL2>salumi</MATERIAL2>
+    <PLACE>bologna</PLACE>
+    <MORE_INFO>Last seen on https://5md.io/l/rictortellini</MORE_INFO>
+		<REF>https://5md.io/l/rictortellini</REF>
+		<SRC/>
+		<DATE>2023-08-02 0911</DATE>
+		<INDEX>1</INDEX> 
+	</ITEM>
+	<ITEM>
+    <ID>02</ID>
+		<NAME>Lasagna</NAME>
+    <DESC_MATERIAL>bolognese ragù, bechamel, eggs, flor 00</DESC_MATERIAL>
+    <DESC_PREPARATION>Flatten the roll of pasta. Cut the roll in 10x15cm strips.</DESC_PREPARATION>
+    <DESC_COOKING>Boil the strips of pasta till they pop up on the top; wash and dry. Put them on backing tin covering with ragù and bechamel sause; cover with the next strip, etc.</DESC_COOKING>
+    <DESC_SERVING>Serve with a few of parmisan that leaves a great tast.</DESC_SERVING>
+    <TYPE>TEXT</TYPE>
+    <RECIPE_TYPE1>MAIN_FIRSTS</RECIPE_TYPE1>
+    <RECIPE_TYPE2/>
+    <MATERIAL1>ragu</MATERIAL1>
+    <MATERIAL2>bechamel</MATERIAL2>
+    <PLACE>bologna</PLACE>
+    <MORE_INFO>Last seen on https://5md.io/l/riclasagna</MORE_INFO>
+		<REF>https://5md.io/l/riclasagna</REF>
+		<SRC/>
+		<DATE>2023-08-02 0915</DATE>
+		<INDEX>2</INDEX> 
+	</ITEM>  
+	<ITEM>
+    <ID>03</ID>
+		<NAME>Tagliatelle</NAME>
+    <DESC_MATERIAL>bolognese ragù, eggs, parmisan, flor 00</DESC_MATERIAL>
+    <DESC_PREPARATION>Roll the pastry not too tight and then flatten the roll. Cut the roll in 8mm strips; dry them for a few hours.</DESC_PREPARATION>
+    <DESC_COOKING>While finishing cooking the bolognese ragù boil the pasta, not too long time.</DESC_COOKING>
+    <DESC_SERVING>Serve the pasta, with a few ragù and parmisan on the top.</DESC_SERVING>
+    <TYPE>TEXT</TYPE>
+    <RECIPE_TYPE1>MAIN_FIRSTS</RECIPE_TYPE1>
+    <RECIPE_TYPE2/>
+    <MATERIAL1>ragu</MATERIAL1>
+    <MATERIAL2>etc</MATERIAL2>
+    <PLACE>bologna</PLACE>
+    <MORE_INFO>Last seen on https://5md.io/l/rictagliatelle</MORE_INFO>
+		<REF>https://5md.io/l/rictagliatelle</REF>
+		<SRC/>
+		<DATE>2023-08-02 0915</DATE>
+		<INDEX>3</INDEX> 
+	</ITEM>    
+	<ITEM>
+    <ID>05</ID>
+		<NAME>Salumi and cheese plate</NAME>
+    <DESC_MATERIAL>mortadella, ham, salami, parmisan, pecorino</DESC_MATERIAL>
+    <DESC_PREPARATION>Cut salami, then the mortadella and ham preferebly by a professional cutter.</DESC_PREPARATION>
+    <DESC_COOKING>Slice the salami at your pleasure.</DESC_COOKING>
+    <DESC_SERVING>Serve with a few of parmisan and pecorino on a side.</DESC_SERVING>
+    <TYPE>TEXT</TYPE>
+    <RECIPE_TYPE1>STARTERS</RECIPE_TYPE1>
+    <RECIPE_TYPE2/>
+    <MATERIAL1>salumi</MATERIAL1>
+    <MATERIAL2>cheese</MATERIAL2>
+    <PLACE>bologna</PLACE>
+    <MORE_INFO>Last seen on https://5md.io/l/riclasagna</MORE_INFO>
+		<REF>https://5md.io/l/riclasagna</REF>
+		<SRC/>
+		<DATE>2023-08-02 0915</DATE>
+		<INDEX>5</INDEX> 
+	</ITEM>  
+	<ITEM>
+    <ID>06</ID>
+		<NAME>Spuma di mortadella</NAME>
+    <DESC_MATERIAL>mortadella, ricotta, parmisan, cream</DESC_MATERIAL>
+    <DESC_PREPARATION>Finely mince the mortadella; mix with ricotta, cream and parmesan.</DESC_PREPARATION>
+    <DESC_COOKING>Blend until smooth</DESC_COOKING>
+    <DESC_SERVING>Serve on a toast with an olive on the top.</DESC_SERVING>
+    <TYPE>TEXT</TYPE>
+    <RECIPE_TYPE1>STARTERS</RECIPE_TYPE1>
+    <RECIPE_TYPE2/>
+    <MATERIAL1>salumi</MATERIAL1>
+    <MATERIAL2>etc</MATERIAL2>
+    <PLACE>bologna</PLACE>
+    <MORE_INFO>Last seen on https://5md.io/l/ricspuma</MORE_INFO>
+		<REF>https://5md.io/l/ricspuma</REF>
+		<SRC/>
+		<DATE>2023-08-02 0915</DATE>
+		<INDEX>6</INDEX> 
+	</ITEM> 
+  <ITEM>
+    <ID>07</ID>
+		<NAME>Friggione</NAME>
+    <DESC_MATERIAL>onion, tomato, lard, sugar</DESC_MATERIAL>
+    <DESC_PREPARATION>Smoothly cut the honions and leve them rest with salt and sugar; for 2 hours.</DESC_PREPARATION>
+    <DESC_COOKING>Add chopped tomatoes and coook in a pan till sauce is tasty</DESC_COOKING>
+    <DESC_SERVING>Serve with meat or fish, friggione is laways great.</DESC_SERVING>
+    <TYPE>TEXT</TYPE>
+    <RECIPE_TYPE1>SIDE_DISHES</RECIPE_TYPE1>
+    <RECIPE_TYPE2/>
+    <MATERIAL1>onion</MATERIAL1>
+    <MATERIAL2>etc</MATERIAL2>
+    <PLACE>bologna</PLACE>
+    <MORE_INFO>Last seen on https://5md.io/l/ricfriggione</MORE_INFO>
+		<REF>https://5md.io/l/ricfriggione</REF>
+		<SRC/>
+		<DATE>2023-08-02 0915</DATE>
+		<INDEX>7</INDEX> 
+	</ITEM> 
+  <ITEM>
+    <ID>08</ID>
+		<NAME>Rise cake</NAME>
+    <DESC_MATERIAL>milk, rise, sugar, eggs, candies. almond liqueur</DESC_MATERIAL>
+    <DESC_PREPARATION>Beat the eggs with sugar, candies and liqueur</DESC_PREPARATION>
+    <DESC_COOKING>Boil the milk and rise with grated lemon, salt and sugar. Cook everything in backing tin.</DESC_COOKING>
+    <DESC_SERVING>Golen and crisp server with some vanilla sugar on the top.</DESC_SERVING>
+    <TYPE>TEXT</TYPE>
+    <RECIPE_TYPE1>SIDE_DISHES</RECIPE_TYPE1>
+    <RECIPE_TYPE2/>
+    <MATERIAL1>rise</MATERIAL1>
+    <MATERIAL2>almond</MATERIAL2>
+    <PLACE>bologna</PLACE>
+    <MORE_INFO>Last seen on https://5md.io/l/ricricecake</MORE_INFO>
+		<REF>https://5md.io/l/ricricecake</REF>
+		<SRC/>
+		<DATE>2023-08-02 0915</DATE>
+		<INDEX>8</INDEX> 
+	</ITEM>         
+</CONTENT>

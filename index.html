@@ -1,0 +1,112 @@
+<HTML>
+<HEAD>
+
+  <TITLE>Pork: My Piatti Squissiti...</TITLE>
+
+  <meta http-equiv="Content-Type" content="text/html; charset=windows-1252"/>
+  <meta name="description" content="Welcome to my PiattiSquisiti!"/>
+
+  <link rel="shortcut icon" href="favicon.ico"/>
+
+  <link href="/css/style.css" type="text/css" rel="stylesheet"></link>
+
+  <script src="/js/jquery-3.6.0.min.js" type="text/javascript"></script>
+
+  <script>
+    var QStype = "";
+    var QSmaterial = "";
+    var QSplace = "";
+    function getQueryString() {
+      url = window.location.href;
+      uriParts = url.split("?");
+      if (uriParts[1]) {
+        queryString = uriParts[1];
+        uriParts = queryString.split("&");
+        for(i=0;i<uriParts.length;i++) {
+          newParts = uriParts[i].split("=");
+          switch(newParts[0]) {
+          case "type":
+            QStype = newParts[1];
+            break;
+          case "material":
+            QSmaterial = newParts[1];
+            break;
+          case "place":
+            QSplace = newParts[1];
+            break;
+          }
+        }
+      }
+    }
+    
+    //alert(QStype);
+    //alert(QSmaterial);
+    //alert(QSplace);
+
+    function Init(type, material, place) {
+
+      switch(type) {
+        case "STARTERS":
+          window.open("/starters.xml","_self");
+          return;
+        case "MAIN_FIRSTS":
+          window.open("/firsts.xml","_self");
+          return;
+        case "MAIN_SECONDS":
+          window.open("/seconds.xml","_self");
+          return;    
+        case "SIDE_DISHES":
+          window.open("/sides.xml","_self");
+          return;
+        case "DESSERTS":
+          window.open("/desserts.xml","_self");
+          return;  
+      }
+
+      window.open("/index.xml", "_self");
+    }
+
+    function hideMenu() {
+      $("#burgerMenu").hide();
+      burgerMenuVisible=false;
+    } 
+
+    function hideTitle() {
+      $("#myh1").hide("slow");
+    }
+
+    function startApp() {
+      $("#HCsplash").hide("slow");
+      //$(document.body).css("background","url('/res/demoris_ad.png')");
+      //$("#content").show();
+      getQueryString();      
+      Init(QStype, QSmaterial, QSplace);
+    }			
+
+    window.addEventListener("load", function() {
+      //$(document.body).css("background","#ffffff");
+      $("#HCsplash").css("color","#000000");
+      $("#HCsplash").show("slow");	  
+      setTimeout("hideTitle()", 2000);
+      setTimeout("startApp()", 4000);
+    }, true);
+
+    window.addEventListener("load", function() {
+      if (window.innerWidth<850) {
+        $("p").css("font-size","1.5vw");
+      } else {
+        $("p").css("font-size","11px");
+      }
+    }, true);
+
+  </script>
+
+<BODY>
+
+    <div id="HCsplash" style="padding-top: 160px; text-align:center;color:#ffffff;display:none;">
+       <div id="myh1"><H1>Piatti Squisiti</H1></div><br/>
+       <img src="/res/logo2.png" style="width:310px;"/>
+    </div>
+  
+ </BODY>  
+</HTML>  

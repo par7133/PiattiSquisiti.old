@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+
+<!-- File name: index.xml 
+
+ Copyright 2021, 2024 5 Mode. All right reserved.
+ 
+ This file is part of PiattiSquisiti.
+
+ starters.xml
+  
+ PiattiSquisiti starters file.
+ 
+ @author Daniele Bonini <my25mb@aol.com>
+ @copyrights (c) 2021, 2024 5 Mode     
+
+-->
+
+<?xml-stylesheet type="text/xsl" href="seconds.xsl"?>
+
+
+<CONTENT>
+	<ITEM>
+    <ID>04</ID>
+		<NAME>Tigelle</NAME>
+    <DESC_MATERIAL>milk, water, yeast, oil, flor 00</DESC_MATERIAL>
+    <DESC_PREPARATION>Combine milk and water with yeast; then mix flour salt and oil till you get a smooth dough; rest for 2 hours.</DESC_PREPARATION>
+    <DESC_COOKING>Cut the dough in disks; cook the tigelle 4 min each side.</DESC_COOKING>
+    <DESC_SERVING>Serve and fill them with abundant salami and cheese.</DESC_SERVING>
+    <TYPE>TEXT</TYPE>
+    <RECIPE_TYPE1>STARTERS</RECIPE_TYPE1>
+    <RECIPE_TYPE2>MAIN_SECONDS</RECIPE_TYPE2>
+    <MATERIAL1>salumi</MATERIAL1>
+    <MATERIAL2>cheese</MATERIAL2>
+    <PLACE>modena</PLACE>
+    <MORE_INFO>Last seen on https://5md.io/l/rictortellini</MORE_INFO>
+		<REF>https://5md.io/l/rictortellini</REF>
+		<SRC/>
+		<DATE>2023-08-02 0911</DATE>
+		<INDEX>4</INDEX> 
+	</ITEM>
+	<ITEM>
+    <ID>05</ID>
+		<NAME>Salumi and cheese plate</NAME>
+    <DESC_MATERIAL>mortadella, ham, salami, parmisan, pecorino</DESC_MATERIAL>
+    <DESC_PREPARATION>Cut salami, then the mortadella and ham preferebly by a professional cutter.</DESC_PREPARATION>
+    <DESC_COOKING>Slice the salami at your pleasure.</DESC_COOKING>
+    <DESC_SERVING>Serve with a few of parmisan and pecorino on a side.</DESC_SERVING>
+    <TYPE>TEXT</TYPE>
+    <RECIPE_TYPE1>STARTERS</RECIPE_TYPE1>
+    <RECIPE_TYPE2>MAIN_SECONDS</RECIPE_TYPE2>
+    <MATERIAL1>salumi</MATERIAL1>
+    <MATERIAL2>cheese</MATERIAL2>
+    <PLACE>bologna</PLACE>
+    <MORE_INFO>Last seen on https://5md.io/l/riclasagna</MORE_INFO>
+		<REF>https://5md.io/l/riclasagna</REF>
+		<SRC/>
+		<DATE>2023-08-02 0915</DATE>
+		<INDEX>5</INDEX> 
+	</ITEM>  
+</CONTENT>

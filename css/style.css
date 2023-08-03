@@ -1,0 +1,141 @@
+/* File name: style.css
+
+ Copyright 2021, 2024 5 Mode. All right reserved.
+ 
+ This file is part of PiattiSquisiti.
+
+ style.css
+  
+ PiattiSquisiti css stylesheet.
+ 
+ @author Daniele Bonini <my25mb@aol.com>
+ @copyrights (c) 2021, 2024 5 Mode     
+
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=ZCOOL+QingKe+HuangYou&display=swap');
+
+html {
+  height:100%;
+}
+body {
+  margin: 0px; 
+  padding: 0px;
+  background: url('/res/demoris_ad.png');
+  background-repeat: repeat;
+  font-family: "ZCOOL QingKe HuangYou";
+  /*background-color: #FFFFFF;*/
+  color: #000000;
+}
+h1 {
+  background: lightgray;
+}
+#burgerMenu1 {
+  float:left; 
+  position:absolute; 
+  width: 150px; 
+  /*top:+23px; 
+  left:+102px; */
+  background: #bb3e52;
+  border: 1px solid #313431; 
+  cursor: pointer; 
+}
+#burgerMenu2 {
+  float:left; 
+  position:absolute; 
+  width: 150px; 
+  /*top:+23px; 
+  left:+102px; */
+  background: #bb3e52;
+  border: 1px solid #313431; 
+  cursor: pointer; 
+}
+#burgerMenu3 {
+  float:left; 
+  position:absolute; 
+  width: 150px; 
+  /*top:+23px; 
+  left:+102px; */
+  background: #bb3e52;
+  border: 1px solid #313431; 
+  cursor: pointer; 
+}
+#content {
+  min-height:100%;  
+  max-width: 900px;
+  margin: auto;
+  margin-top: 10px;
+  background: #FFFFFF;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.cooking-title {
+  text-decoration: underline;
+}
+.header {
+  background: #FFFFFF;
+}
+.icon {
+  height: 160px;
+}
+#logo {
+  width: 557px;
+  margin: auto;
+}
+.material2 {
+  color: #cc3300; 
+  font-weight: 900;
+  text-decoration: none;
+}
+.material-hints {
+  color: #cc3300;
+}
+.material-title {
+  text-decoration: underline;
+}
+#menu {
+  width: 590px;
+  font-size:18px;
+  font-weight:900;
+}
+.menubm {
+  float: left;
+  width: 80px;
+  text-align: left;
+  white-space: nowrap;
+}  
+.muaa {
+  color: #000000;
+  text-decoration:none;
+}
+#myh1 {
+  width: 250px;
+  margin: auto;
+}
+.name {
+  text-transform:  uppercase;
+  font-weight: 900;
+}
+.place {
+  color: #cc3300; 
+  font-weight: 900;
+  font-style: italic;
+  text-decoration: none;
+  text-transform: capitalize;  
+}
+.preparation-title {
+  text-decoration: underline;
+}
+.recipe {
+  font-size: 14px; 
+}
+.serving-title {
+  text-decoration: underline;
+}
+.vmuBurgerMenu {
+  width:150px; 
+  color:#FFFFFF; 
+  font-family: Secular One;
+  font-weight:900; 
+  text-align:right; 
+  border-bottom:1px solid #FFFFFF;
+}
