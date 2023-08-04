@@ -22,10 +22,11 @@
 	<ITEM>
     <ID>07</ID>
 		<NAME>Friggione</NAME>
+    <DESC/>
     <DESC_MATERIAL>onion, tomato, lard, sugar</DESC_MATERIAL>
     <DESC_PREPARATION>Smoothly cut the honions and leve them rest with salt and sugar; for 2 hours.</DESC_PREPARATION>
     <DESC_COOKING>Add chopped tomatoes and coook in a pan till sauce is tasty</DESC_COOKING>
-    <DESC_SERVING>Serve with meat or fish, friggione is laways great.</DESC_SERVING>
+    <DESC_SERVING>Serve with meat or fish, friggione is always great.</DESC_SERVING>
     <TYPE>TEXT</TYPE>
     <RECIPE_TYPE1>SIDE_DISHES</RECIPE_TYPE1>
     <RECIPE_TYPE2/>

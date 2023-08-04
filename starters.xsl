@@ -66,7 +66,7 @@
        <div class="menubm" onclick="popupMenu3()" style="cursor:pointer;width:80px;">by Place</div>
        <div class="menubm" style="cursor:pointer;width:70px;"><a href="videos.xml" class="muaa">Videos</a></div>s
        <div class="menubm" style="cursor:pointer;width:50px;"><a href="fun.xml" class="muaa">Fun</a></div>
-       <div class="menubm" style="cursor:pointer;width:120px;"><a href="etc.xml" class="muaa">What is this?</a></div>
+       <div class="menubm" style="cursor:pointer;width:120px;"><a href="glossary.xml" class="muaa">What is this?</a></div>
        <div class="menubm" style="cursor:pointer;width:80px;"><a href="about.xml" class="muaa">Who we are</a></div>
     </div>
     

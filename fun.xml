@@ -22,6 +22,7 @@
 	<ITEM>
     <ID>01</ID>
 		<NAME>Tortellini</NAME>
+    <DESC/>
     <DESC_MATERIAL>pork, mortadella, ham, eggs, parmisan, flour 00</DESC_MATERIAL>
     <DESC_PREPARATION>Mix pork, ham, mortadella, parmisan and eggs; rest for 20 hours. Shape 4x4xcm squares with filling; fold them.</DESC_PREPARATION>
     <DESC_COOKING>Boil them briefly, not too long time.</DESC_COOKING>

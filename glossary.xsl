@@ -79,7 +79,7 @@
       <div>&#8201;</div>
     </div> 
 
-     <div id="burgerMenu2" class="burgermenu" style="display: none; z-index:99997; border: 0px solid yellow;">
+    <div id="burgerMenu2" class="burgermenu" style="display: none; z-index:99997; border: 0px solid yellow;">
       <div id="muAlmond" class="vmuBurgerMenu"><a href="/almond.xml" style="color:#FFFFFF;">Almond</a>&#8201;</div>
       <div id="muBacon" class="vmuBurgerMenu"><a href="/bacon.xml" style="color:#FFFFFF;">Bacon</a>&#8201;</div>
       <div id="muBechamel" class="vmuBurgerMenu"><a href="/bechamel.xml" style="color:#FFFFFF;">Bechamel</a>&#8201;</div>
@@ -111,16 +111,17 @@
 
 		<table border="0" style="width:80%; max-width:550px;">
       
-		<xsl:for-each select="ITEM[TYPE='TEXT']">
+		<xsl:for-each select="ITEM[TYPE='DIC']">
 		
-			<xsl:sort select="INDEX" data-type="number" order="descending"/>
+			<xsl:sort select="NAME" data-type="text" order="ascending"/>
             
       <tr>
         <td halign="center" style="max-height:160px; text-align:left; border-bottom: 0px solid transparent;">
           
-          <img class="icon" src="" align="left" />
+          <img class="icon" src="" align="left" style="display:none" />
           
-          <div class="recipe" style="margin-left:140px;min-height:130px; border: 1px solid lightgray; border-bottom: 0px solid lightgray; padding:10px;">
+          <div class="recipe" style="width:360px;margin:auto;min-height:130px;border:1px solid lightgray;border-bottom: 0px solid lightgray;padding:10px;">
+            
             <span class="title"><span class="name"><xsl:value-of select="NAME"/></span>, from 
             
             <a>
@@ -131,33 +132,19 @@
             </a>
 
             </span>
-            <br/>
-            <span class="material"><span class="material-title">Material</span>: <span class="material-text"><xsl:value-of select="DESC_MATERIAL"/></span>&#8201;(<span class="material-hints">
-              
-            <a>
-              <xsl:attribute name="target">_self</xsl:attribute> 
-              <xsl:attribute name="href"><xsl:value-of select="MATERIAL1"/>.xml</xsl:attribute>
-              <xsl:attribute name="style">text-decoration:none;</xsl:attribute>
-              <span class="material2"><xsl:value-of select="MATERIAL1"/></span>
-            </a>
             
-            ,&#8201;                            
+            <br/><br/><br/>
             
-            <a>
-              <xsl:attribute name="target">_self</xsl:attribute> 
-              <xsl:attribute name="href"><xsl:value-of select="MATERIAL2"/>.xml</xsl:attribute>
-              <xsl:attribute name="style">text-decoration:none;</xsl:attribute>
-              <span class="material2"><xsl:value-of select="MATERIAL2"/></span>
-            </a>                            
-                                                            
-            </span>)</span>
+            <span class="desc"><span class="desc-text"><xsl:value-of select="DESC"/></span></span>
             
-            <br/>
+            <br/><br/><br/>
             
-            <span class="material"><span class="material-title">Material</span>: <span class="material-text"><xsl:value-of select="DESC_MATERIAL"/></span>&#8201;(<span class="material-hints"><xsl:value-of select="MATERIAL1"/>,&#8201;<xsl:value-of select="MATERIAL2"/></span>)</span><br/>
-            <span class="preparation"><span class="preparation-title">Preparation</span>: <span class="preparation-text"><xsl:value-of select="DESC_PREPARATION"/></span></span><br/>
-            <span class="cooking"><span class="cooking-title">Cooking</span>: <span class="cooking-text"><xsl:value-of select="DESC_COOKING"/></span></span><br/>
-            <span class="serving"><span class="serving-title">Serving</span>: <span class="serving-text"><xsl:value-of select="DESC_SERVING"/></span></span><br/>
+            <img>
+              <xsl:attribute name="class">image</xsl:attribute> 
+              <xsl:attribute name="src"><xsl:value-of select="SRC"/></xsl:attribute>
+              <xsl:attribute name="style">width: 0px; height: 0px; min-width: 340px; min-height: 225px; vertical-align: middle;</xsl:attribute>
+            </img>                            
+            
           </div>
           
           <br/><br/><br/>
@@ -170,8 +157,8 @@
     <tr>
     <td halign="center" style="text-align:center;">      
 
-    <br/><br/>
-
+    <br/><br/><br/>
+    
 		<br/><br/>
 		
 		<SPAN STYLE="color: #000000; font-size: 14px;">
@@ -323,7 +310,7 @@
           $("p").css("font-size","11px");
         }
         
-        showPiglets();
+        //showPiglets();
       }, true);
 
       window.addEventListener("resize", function() {
@@ -358,7 +345,6 @@
 </script>
 <noscript><div><img src="https://mc.yandex.ru/watch/94522487" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
 <!-- /Yandex.Metrika counter -->
-
 
 	  </BODY>
 	  </HTML>     	

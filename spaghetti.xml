@@ -22,6 +22,7 @@
   <ITEM>
     <ID>09</ID>
 		<NAME>Carbonara</NAME>
+    <DESC/>
     <DESC_MATERIAL>spaghetti, bacon, eggs, parmisan, pepper</DESC_MATERIAL>
     <DESC_PREPARATION>Brown the strips of bacon in pot</DESC_PREPARATION>
     <DESC_COOKING>Boil the spaghetti just enough, "al dente". Dry them and mix with eggs and bacon.</DESC_COOKING>

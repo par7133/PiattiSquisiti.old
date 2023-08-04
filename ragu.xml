@@ -22,6 +22,7 @@
 	<ITEM>
     <ID>02</ID>
 		<NAME>Lasagna</NAME>
+    <DESC/>
     <DESC_MATERIAL>bolognese ragù, bechamel, eggs, parmisan, flour 00</DESC_MATERIAL>
     <DESC_PREPARATION>Flatten the roll of pasta. Cut the roll in 10x15cm strips.</DESC_PREPARATION>
     <DESC_COOKING>Boil the strips of pasta till they pop up on the top; wash and dry. Put them on backing tin covering with ragù and bechamel sause; cover with the next strip, etc.</DESC_COOKING>
@@ -41,6 +42,7 @@
 	<ITEM>
     <ID>03</ID>
 		<NAME>Tagliatelle</NAME>
+    <DESC/>
     <DESC_MATERIAL>bolognese ragù, eggs, parmisan, flor 00</DESC_MATERIAL>
     <DESC_PREPARATION>Roll the pastry not too tight and then flatten the roll. Cut the roll in 8mm strips; dry them for a few hours.</DESC_PREPARATION>
     <DESC_COOKING>While finishing cooking the bolognese ragù boil the pasta, not too long time.</DESC_COOKING>

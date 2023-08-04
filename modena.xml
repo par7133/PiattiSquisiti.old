@@ -22,6 +22,7 @@
 	<ITEM>
     <ID>04</ID>
 		<NAME>Tigelle</NAME>
+    <DESC/>
     <DESC_MATERIAL>milk, water, yeast, oil, flour 00</DESC_MATERIAL>
     <DESC_PREPARATION>Combine milk and water with yeast; then mix flour salt and oil till you get a smooth dough; rest for 2 hours.</DESC_PREPARATION>
     <DESC_COOKING>Cut the dough in disks; cook the tigelle 4 min each side.</DESC_COOKING>
