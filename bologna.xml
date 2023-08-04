@@ -22,6 +22,7 @@
 	<ITEM>
     <ID>01</ID>
 		<NAME>Tortellini</NAME>
+    <DESC/>
     <DESC_MATERIAL>pork, mortadella, ham, eggs, parmisan, flour 00</DESC_MATERIAL>
     <DESC_PREPARATION>Mix pork, ham, mortadella, parmisan and eggs; rest for 20 hours. Shape 4x4xcm squares with filling; fold them.</DESC_PREPARATION>
     <DESC_COOKING>Boil them briefly, not too long time.</DESC_COOKING>
@@ -41,6 +42,7 @@
 	<ITEM>
     <ID>02</ID>
 		<NAME>Lasagna</NAME>
+    <DESC/>
     <DESC_MATERIAL>bolognese ragù, bechamel, eggs, flour 00</DESC_MATERIAL>
     <DESC_PREPARATION>Flatten the roll of pasta. Cut the roll in 10x15cm strips.</DESC_PREPARATION>
     <DESC_COOKING>Boil the strips of pasta till they pop up on the top; wash and dry. Put them on backing tin covering with ragù and bechamel sause; cover with the next strip, etc.</DESC_COOKING>
@@ -60,6 +62,7 @@
 	<ITEM>
     <ID>03</ID>
 		<NAME>Tagliatelle</NAME>
+    <DESC/>
     <DESC_MATERIAL>bolognese ragù, eggs, parmisan, flour 00</DESC_MATERIAL>
     <DESC_PREPARATION>Roll the pastry not too tight and then flatten the roll. Cut the roll in 8mm strips; dry them for a few hours.</DESC_PREPARATION>
     <DESC_COOKING>While finishing cooking the bolognese ragù boil the pasta, not too long time.</DESC_COOKING>
@@ -79,6 +82,7 @@
 	<ITEM>
     <ID>05</ID>
 		<NAME>Salumi and cheese plate</NAME>
+    <DESC/>
     <DESC_MATERIAL>mortadella, ham, salami, parmisan, pecorino</DESC_MATERIAL>
     <DESC_PREPARATION>Cut salami, then the mortadella and ham preferebly by a professional cutter.</DESC_PREPARATION>
     <DESC_COOKING>Slice the salami at your pleasure.</DESC_COOKING>
@@ -98,6 +102,7 @@
 	<ITEM>
     <ID>06</ID>
 		<NAME>Spuma di mortadella</NAME>
+    <DESC/>
     <DESC_MATERIAL>mortadella, ricotta, parmisan, cream</DESC_MATERIAL>
     <DESC_PREPARATION>Finely mince the mortadella; mix with ricotta, cream and parmesan.</DESC_PREPARATION>
     <DESC_COOKING>Blend until smooth</DESC_COOKING>
@@ -117,10 +122,11 @@
   <ITEM>
     <ID>07</ID>
 		<NAME>Friggione</NAME>
+    <DESC/>
     <DESC_MATERIAL>onion, tomato, lard, sugar</DESC_MATERIAL>
     <DESC_PREPARATION>Smoothly cut the honions and leve them rest with salt and sugar; for 2 hours.</DESC_PREPARATION>
     <DESC_COOKING>Add chopped tomatoes and coook in a pan till sauce is tasty</DESC_COOKING>
-    <DESC_SERVING>Serve with meat or fish, friggione is laways great.</DESC_SERVING>
+    <DESC_SERVING>Serve with meat or fish, friggione is always great.</DESC_SERVING>
     <TYPE>TEXT</TYPE>
     <RECIPE_TYPE1>SIDE_DISHES</RECIPE_TYPE1>
     <RECIPE_TYPE2/>
@@ -136,6 +142,7 @@
   <ITEM>
     <ID>08</ID>
 		<NAME>Rise cake</NAME>
+    <DESC/>
     <DESC_MATERIAL>milk, rise, sugar, eggs, candies. almond liqueur</DESC_MATERIAL>
     <DESC_PREPARATION>Beat the eggs with sugar, candies and liqueur</DESC_PREPARATION>
     <DESC_COOKING>Boil the milk and rise with grated lemon, salt and sugar. Cook everything in backing tin.</DESC_COOKING>

@@ -22,6 +22,7 @@
   <ITEM>
     <ID>11</ID>
 		<NAME>Tenerina cake</NAME>
+    <DESC/>
     <DESC_MATERIAL>chocolate, butter, eggs, sugar, milk, flour 00</DESC_MATERIAL>
     <DESC_PREPARATION>Beat the eggs yolks with sugar and flour. Beat the eggs whites with salt.</DESC_PREPARATION>
     <DESC_COOKING>Melt chocolate with butter. Then mix with the eggs creams. Bake the cake 25-30min</DESC_COOKING>

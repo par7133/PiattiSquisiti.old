@@ -22,6 +22,7 @@
   <ITEM>
     <ID>08</ID>
 		<NAME>Rise cake</NAME>
+    <DESC/>
     <DESC_MATERIAL>milk, rise, sugar, eggs, candies. almond liqueur</DESC_MATERIAL>
     <DESC_PREPARATION>Beat the eggs with sugar, candies and liqueur</DESC_PREPARATION>
     <DESC_COOKING>Boil the milk and rise with grated lemon, salt and sugar. Cook everything in backing tin.</DESC_COOKING>
@@ -41,6 +42,7 @@
   <ITEM>
     <ID>11</ID>
 		<NAME>Tenerina cake</NAME>
+    <DESC/>
     <DESC_MATERIAL>chocolate, butter, eggs, sugar, milk, flour 00</DESC_MATERIAL>
     <DESC_PREPARATION>Beat the eggs yolks with sugar and flour. Beat the eggs whites with salt.</DESC_PREPARATION>
     <DESC_COOKING>Melt chocolate with butter. Then mix with the eggs creams. Bake the cake 25-30min</DESC_COOKING>
@@ -60,6 +62,7 @@
   <ITEM>
     <ID>12</ID>
 		<NAME>Castagnacci</NAME>
+    <DESC/>
     <DESC_MATERIAL>chestnuts flour, raisins, vinsanto, nuts</DESC_MATERIAL>
     <DESC_PREPARATION>Heat the raisins in the water in spoon of vinsanto. Mix flour, salt, water adding the raisins and nuts.</DESC_PREPARATION>
     <DESC_COOKING>Make 6x6cm cakes in the baking tin over and drizzled with oil. Cook for 25-30 min</DESC_COOKING>
